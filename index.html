@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Rishaeel Mamoon | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#home" class="logo">Your<span>Portfolio</span></a>
+
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-text">
+        <p class="intro">Hello, I'm</p>
+        <h1><span>Rishaeel Mamoon</span><br>BSCS Student </h1>
+        <p>
+          I am trying to learn new skills.
+          This portfolio shows my skills, projects, and contact details in one page.
+        </p>
+
+        <div class="btn-group">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card profile-box">
+        <img src="Rishi.jpeg" alt="Profile Picture" class="profile-pic">
+        <h3>Rishaeel Mamoon</h3>
+        <p>Karachi, Pakistan</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">
+          A short introduction about who you are and what you are learning.
+        </p>
+
+        <div class="about-grid">
+          <div class="card">
+            <h3>Who I Am</h3>
+            <p>
+              I am a BSCS student from Pakistan. I am interested in web design and front-end
+              development. I enjoy making websites and improving my skills step by step.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>My Goals</h3>
+            <p>
+              My goal is to become better at HTML, CSS, and JavaScript, create strong projects,
+              and build a portfolio that reflects my own style and effort.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-subtitle">
+          These are some of the skills I am learning and improving.
+        </p>
+
+        <div class="skills-grid">
+          <div class="card">HTML</div>
+          <div class="card">CSS</div>
+          <div class="card">JavaScript</div>
+          <div class="card">Responsive Design</div>
+          <div class="card">Communication</div>
+          <div class="card">Creativity</div>
+          <div class="card">Problem Solving</div>
+          <div class="card">Teamwork</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">
+          Here are some of my projects and interface designs.
+        </p>
+
+        <div class="projects-grid">
+          <div class="card project-card">
+            <img src="DJdeck.jpg" alt="DJ Deck Project">
+            <h3>DJ Deck Application</h3>
+            <p>
+              A dual-deck DJ application interface with waveform display, cue controls,
+              playlist management, and crossfader functionality.
+            </p>
+            <div class="project-links">
+              <a href="#">Live Demo</a>
+              <a href="#">Source Code</a>
+            </div>
+          </div>
+
+          <div class="card project-card">
+            <img src="Website.jpg" alt="IndiaConnect Website Project">
+            <h3>IndiaConnect Website</h3>
+            <p>
+              A modern dark-themed website design with a gradient hero section,
+              timeline layout, search bar, and clean content cards.
+            </p>
+            <div class="project-links">
+              <a href="#">Live Demo</a>
+              <a href="#">Source Code</a>
+            </div>
+          </div>
+
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">
+          You can reach me using the details below.
+        </p>
+
+        <div class="contact-grid">
+          <div class="card">
+            <h3>Get In Touch</h3>
+            <ul class="contact-list">
+              <li><strong>Email:</strong> khanrishaeel@gmail.com</li>
+              <li><strong>Phone:</strong> +92 3421399306 </li>
+              <li><strong>Location:</strong> Karachi, Pakistan</li>
+              
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Send a Message</h3>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input type="email" name="email" placeholder="Your Email" required />
+              <textarea name="message" placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+<script src="http://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.minjs"></script>
+<script src="http://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
