@@ -399,3 +399,26 @@ footer {
     transform: none;
   }
 }
+.credentials {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.credentials li {
+  border-top: 1px solid var(--line);
+  padding-block: 12px;
+}
+
+.credentials strong,
+.credentials span {
+  display: block;
+}
+
+.credentials span {
+  color: var(--muted);
+}
+
+#education p + h3 {
+  margin-top: 22px;
+}
